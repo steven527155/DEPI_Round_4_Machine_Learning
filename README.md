@@ -52,15 +52,21 @@ To ensure data integrity, the system enforces the following strict rules:
 
 ## 🖥️ Graphical User Interface (GUI)
 
-The GUI is designed for speed and ease of use:
+The GUI is designed for speed and ease of use, featuring five core operations:
 
+### Action Buttons & Operations
+* 🟢 **Add:** Validates and creates a new employee record.
+* 🟡 **Update:** Modifies an existing record. (Empty fields are ignored to preserve data).
+* 🔴 **Delete:** Permanently removes the selected employee from memory and CSV.
+* 🔍 **Search:** Retrieves and displays full details for a specific Employee ID in a popup.
+* ⚪ **Clear Fields:** Instantly resets all input boxes to empty for a fresh entry.
+
+
+
+### Interactive Features
 * **Interactive Treeview:** Displays all employees in a clean table format.
 * **Click-to-Fill:** Selecting a row in the table automatically populates the input fields, allowing for rapid editing or deletion.
-* **Color-Coded Actions:** * 🟢 **Add:** Light Green
-    * 🟡 **Update:** Light Yellow
-    * 🔴 **Delete:** Light Red
 * **Status Bar:** Provides a real-time count of total records currently stored in the system.
-* **Clear Utility:** A dedicated "Clear Fields" button to reset the form instantly.
 
 ---
 
