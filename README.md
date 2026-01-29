@@ -1,5 +1,5 @@
 # DEPI_Round_4_Machine_Learning
-# Employee Management System (EMS)
+# Employee Management System
 
 A professional, Object-Oriented Python application designed for managing employee records. This system utilizes a Graphical User Interface (GUI) and maintains persistent data storage using the Python `csv` module.
 
